@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Objective
 
-## Getting Started
+To integrate Firestore into a Next.js application, demonstrating the ability to add new data to Firestore and display this data within the application. This exercise focuses on initializing Firestore, simple data modeling, and executing create and read operations.
 
-First, run the development server:
+# Instructions
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Part 1: Firestore Setup
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Initialize Firestore in your Next.js project according to the provided demo code instructions.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Ensure Firestore is correctly configured in a firebaseConfig.js file.
+![alt text](image-1.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Part 2: Adding Data to Firestore
 
-## Learn More
+### Develop a SimpleForm Component:
 
-To learn more about Next.js, take a look at the following resources:
+This component should include input fields for at least two pieces of data (e.g., a user's name and message).
+![alt text](image.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Implement the functionality to add a new document to a Firestore collection upon form submission. You may name the collection as you wish, such as messages.
+![alt text](image-2.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Part 3: Displaying Data from Firestore
 
-## Deploy on Vercel
+### Create a DataDisplay Component:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This component is responsible for fetching documents from the Firestore collection used in SimpleForm and displaying the data in a list or another appropriate format.
+![alt text](image-3.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Part 4: Documentation and Submission
+
+### Logging and README.md:
+
+Ensure successful document additions to Firestore are confirmed via console logging (e.g., "Document added with ID: XYZ").
+![alt text](image-4.png)
+
+Update the README.md file with a brief explanation of your integration process, challenges encountered, and their resolutions.
