@@ -36,3 +36,6 @@ Ensure successful document additions to Firestore are confirmed via console logg
 ![alt text](image-4.png)
 
 Update the README.md file with a brief explanation of your integration process, challenges encountered, and their resolutions.
+
+### Credits:
+Credit to ChatGPT for assistance in tailoring class code to fit assignment and explanations of Firebase, as well as code comments.

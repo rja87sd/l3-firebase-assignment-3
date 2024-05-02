@@ -1,6 +1,7 @@
+// Credit to ChatGPT for assistance and code comments.
+
 import DataDisplay from "./DataDisplay";
 import SimpleForm from "./SimpleForm";
-
 
 export default function Home() {
   return (

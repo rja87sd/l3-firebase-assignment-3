@@ -1,4 +1,6 @@
 // SimpleForm.jsx
+// Credit to ChatGPT for assistance and code comments.
+
 "use client";
 
 // Import necessary functions from Firestore to interact with the database

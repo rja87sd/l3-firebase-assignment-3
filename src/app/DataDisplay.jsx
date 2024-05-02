@@ -1,4 +1,6 @@
 // DataDisplay.jsx
+// Credit to ChatGPT for assistance and code comments.
+
 "use client";
 
 // Import necessary Firestore functions
